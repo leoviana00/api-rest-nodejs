@@ -4,10 +4,10 @@ use apirest;
 
 CREATE TABLE IF NOT EXISTS users(
     id SERIAL PRIMARY KEY,
-    nome VARCHAR(40),
+    name VARCHAR(40),
     email TEXT
 );
 
-INSERT INTO user (name, email) VALUES
+INSERT INTO users (name, email) VALUES
 ('joe', 'joe@gmail.com'),
 ('joana', 'joana@gmail.com');
