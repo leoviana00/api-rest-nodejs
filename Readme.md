@@ -15,7 +15,7 @@ yarn dev
 ## Dockerizando a api
 
 - Dockerfile.dev
-```
+```Dockerfile
 FROM node:15-alpine
 
 WORKDIR /app
