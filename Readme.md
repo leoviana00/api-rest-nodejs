@@ -31,6 +31,7 @@ docker build -t api-rest -f Dockerfile.dev .
 ```
 
 ## Pg Admin
+
 ```bash
 docker run --name pgadmin -p 15432:80 -e PGADMIN_DEFAULT_EMAIL=leonardoviana00@hotmail.com -e PGADMIN_DEFAULT_PASSWORD=Info.123 -d dpage/pgadmin4
 ```
